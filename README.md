@@ -37,7 +37,29 @@ maintenance.
 Will be provided shortly.
 
 # UEFI IFR edits
-Will be provided shortly.
+Using your favourite UEFI editor, you will need to make the relevant changes below as required:
+
+```bash
+setup_var
+Undervolt CPU: 0x653-> 0x4B (offset by 75mV)
+Undervolt -ve: 0x655-> 0x01
+Undervolt GPU: 0x85A-> 0x4B
+Undervolt -ve: 0x85C-> 0x01
+Undervolt GPU: 0x863-> 0x4B
+Undervolt -ve: 0x865-> 0x01
+Undervolt UNC: 0x852-> 0x4B
+Undervolt -ve: 0x854-> 0x01
+
+Disable CFG  : 0x4DE-> 0x00
+Enable OC    : 0x64D-> 0x01
+Enable XTU   : 0x64E-> 0x01
+
+DVMT 192MB   : 0x785-> 0x06
+DVMT MAX     : 0x786-> 0x03
+
+CTDP boot max: 0x4DF-> 0x02
+
+```
 
 # Known Issues
 None
