@@ -2,9 +2,9 @@
 
 # Details
 
-| OpenCore Version | 0.8.7 |
+| OpenCore Version | 1.0.0 |
 | --- | --- |
-| macOS Version | 12.6.2 (Monterey) |
+| macOS Version | 12.6.7 (Monterey) |
 | SMSBios | MacBookPro15,2 |
 
 # Hardware Specifications
