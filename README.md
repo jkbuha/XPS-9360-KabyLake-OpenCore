@@ -64,3 +64,11 @@ CTDP boot max: 0x4DF-> 0x02
 # Known Issues
 None
 
+# Donate
+
+If you like and use this project, feel free to contribute anything you can below:
+
+Paypal: https://paypal.me/jkbuha
+
+Bitcoin: bc1qjuy6hy5shqqdnyzzcjlc2h4ua47gpugphuxdae
+
